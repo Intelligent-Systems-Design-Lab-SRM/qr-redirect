@@ -63,6 +63,10 @@ export default function Home() {
 
         </div>
       </div>
+
+      <div className="absolute bottom-6 w-full text-center text-zinc-500 text-sm z-20">
+        Made by <a href="https://harshilmalhotra.dev" target="_blank" rel="noopener noreferrer" className="text-zinc-400 hover:text-white transition-colors duration-200 font-medium">Harshil Malhotra</a>
+      </div>
     </main>
   );
 }
