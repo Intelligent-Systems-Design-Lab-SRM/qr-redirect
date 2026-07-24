@@ -1,0 +1,5 @@
+id,name,designation,active,redirect
+001,Harshil,President,TRUE,https://isdlabsrm.in
+002,Ashwin,Vice President,TRUE,https://robofest.in
+003,Keshav,Secretary,TRUE,https://github.com/Intelligent-Systems-Design-Lab-SRM
+004,Samuel,Operations Lead,FALSE,https://example.com
