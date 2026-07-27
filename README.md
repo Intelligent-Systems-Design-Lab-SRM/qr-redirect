@@ -105,3 +105,10 @@ export async function GET(
    npm run dev
    ```
 3. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## License
+
+This project is part of the **Intelligent Systems Design Lab (ISD Lab)**. 
+It is open-source under the [MIT License](LICENSE). When using, modifying, or distributing this project, you must provide proper attribution and credits to:
+- **Intelligent Systems Design Lab (ISD Lab)**
+- **Harshil Malhotra** ([https://github.com/Harshilmalhotra](https://github.com/Harshilmalhotra))
