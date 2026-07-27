@@ -9,6 +9,17 @@ Developed & maintained by **Harshil**.
 This project provides dynamic URL redirection based on QR code IDs. For example, a user scanning a QR code with the URL `https://qr.robofest.in/m/1` will be redirected to the URL associated with ID `1` in the database. 
 If the ID is invalid or inactive, the user is redirected to a fallback page (e.g., `/m`).
 
+### Flow Diagram
+
+```mermaid
+flowchart TD
+    A[User scans QR Code\n e.g., /m/1] --> B{ID exists in \nredirects.csv?}
+    B -- Yes --> C{Is 'active' TRUE?}
+    C -- Yes --> D[Redirect to destination URL]
+    C -- No --> E[Redirect to fallback page]
+    B -- No --> E
+```
+
 ## Data Storage
 
 The redirect data is stored in a CSV file located at `data/redirects.csv`. 
